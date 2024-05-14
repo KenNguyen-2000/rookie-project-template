@@ -25,7 +25,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseGlobalExceptionHandler();
+
 app.UseAuthentication();
 app.UseAuthorization();
 
